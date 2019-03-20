@@ -1,0 +1,38 @@
+{
+  "name": "container-lib",
+  "version": "1.0.0",
+  "description": "Typescript data container library",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c -o dist/container-lib.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "library"
+  ],
+  "author": "mnikn",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "chai": "^4.2.0",
+    "jest": "^24.5.0",
+    "rollup": "^1.6.0",
+    "rollup-plugin-typescript": "^1.0.0",
+    "ts-jest": "^24.0.0",
+    "tslib": "^1.9.3",
+    "typescript": "^3.3.3333"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "ts-jest"
+    },
+    "testRegex": "/test/.*\\.(ts|js)$"
+  }
+}
