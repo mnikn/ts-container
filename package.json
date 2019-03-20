@@ -1,5 +1,5 @@
 {
-  "name": "container-lib",
+  "name": "ts-container",
   "version": "1.0.0",
   "description": "Typescript data container library",
   "main": "index.js",
