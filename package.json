@@ -4,7 +4,7 @@
   "description": "Typescript data container library",
   "main": "index.js",
   "scripts": {
-    "build": "rollup -c -o dist/container-lib.js",
+    "build": "rollup -c -o dist/ts-container.js",
     "test": "jest"
   },
   "keywords": [
